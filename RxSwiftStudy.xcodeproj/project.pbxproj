@@ -19,6 +19,10 @@
 		F471B53425699B8B0096DC4C /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = F471B53325699B8B0096DC4C /* RxRelay */; };
 		F471B53625699B8B0096DC4C /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = F471B53525699B8B0096DC4C /* RxCocoa */; };
 		F471B53825699B8B0096DC4C /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = F471B53725699B8B0096DC4C /* RxBlocking */; };
+		F471B53B25699BEF0096DC4C /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = F471B53A25699BEF0096DC4C /* Common.swift */; };
+		F471B53F25699C1B0096DC4C /* AsyncViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F471B53E25699C1B0096DC4C /* AsyncViewController.swift */; };
+		F471B54225699C2D0096DC4C /* PromiseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F471B54125699C2D0096DC4C /* PromiseViewController.swift */; };
+		F471B54625699C380096DC4C /* RxSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F471B54525699C380096DC4C /* RxSwiftViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		F471B51E25699B2F0096DC4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F471B52125699B2F0096DC4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F471B52325699B2F0096DC4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F471B53A25699BEF0096DC4C /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		F471B53E25699C1B0096DC4C /* AsyncViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncViewController.swift; sourceTree = "<group>"; };
+		F471B54125699C2D0096DC4C /* PromiseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromiseViewController.swift; sourceTree = "<group>"; };
+		F471B54525699C380096DC4C /* RxSwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +76,10 @@
 		F471B51425699B2E0096DC4C /* RxSwiftStudy */ = {
 			isa = PBXGroup;
 			children = (
+				F471B53E25699C1B0096DC4C /* AsyncViewController.swift */,
+				F471B54125699C2D0096DC4C /* PromiseViewController.swift */,
+				F471B54525699C380096DC4C /* RxSwiftViewController.swift */,
+				F471B53A25699BEF0096DC4C /* Common.swift */,
 				F471B51525699B2E0096DC4C /* AppDelegate.swift */,
 				F471B51725699B2E0096DC4C /* SceneDelegate.swift */,
 				F471B51925699B2E0096DC4C /* ViewController.swift */,
@@ -161,9 +173,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F471B53B25699BEF0096DC4C /* Common.swift in Sources */,
 				F471B51A25699B2E0096DC4C /* ViewController.swift in Sources */,
+				F471B54225699C2D0096DC4C /* PromiseViewController.swift in Sources */,
 				F471B51625699B2E0096DC4C /* AppDelegate.swift in Sources */,
 				F471B51825699B2E0096DC4C /* SceneDelegate.swift in Sources */,
+				F471B54625699C380096DC4C /* RxSwiftViewController.swift in Sources */,
+				F471B53F25699C1B0096DC4C /* AsyncViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
